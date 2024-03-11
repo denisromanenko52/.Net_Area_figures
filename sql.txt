@@ -1,0 +1,1 @@
+SELECT * FROM products LEFT JOIN category_product ON products.id = category_product.productId LEFT JOIN categories ON categories.id = category_product.categoryId
